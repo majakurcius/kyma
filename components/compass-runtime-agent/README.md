@@ -16,7 +16,7 @@ The Compass Runtime Agent requires Go 1.8 or higher.
 
 ## Usage
 
-To start the Connector Service, run this command:
+To start the Compass Runtime Agent, run this command:
 
 ```
 ./compass-runtime-agent
@@ -32,7 +32,7 @@ The Compass Runtime Agent has the following parameters:
 - **insecureConfigurationFetch** specifies whether to fetch the configuration with disabled TLS verification. The default value is `false`.
 - **uploadServiceUrl** is the URL of the upload service. By default, it is an empty string.
 
-The Compass Runtime Agent also uses the following environment variables:
+The Compass Runtime Agent uses these environment variables:
 - **DIRECTOR_URL**
 - **RUNTIME_ID**
 - **TENANT**
